@@ -1,7 +1,12 @@
 
+:root {
+    --main-bg-color: #EDF2C4;
+    --main-tx-color: #025949
+  }
 
 body{
-    background-color: tema-4;
+    background-color: var(--main-bg-color);
+    color: var(--main-tx-color);
 }
 
 .tema-1 { color: #73022C; }
