@@ -1,6 +1,6 @@
 
 :root {
-    --main-bg-color: #D3C6B7;
+    --main-bg-color: #f2f2f2;
     --main-tx-color: #A0A698
   }
 
@@ -85,8 +85,8 @@ body{
 
 .container{
   width: 100%;
-  padding-right: 10rem;
-  padding-left: 5rem;
+  padding-right: 15px;
+  padding-left: 15px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -99,6 +99,26 @@ p{
   margin-block-end: 10rem;
   margin-inline-start: 0px;
   margin-inline-end: 60rem;
+}
+
+.col-md-4{
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  max-width: 100%;
+}
+
+.row{
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+div{
+  display: block;
 }
 
 @media screen and (max-width: 500px) {
@@ -117,11 +137,6 @@ p{
     margin-inline-start: 0px;
     margin-inline-end: 100px;
     color: var(--main-tx-color);
-  }
-
-  .container{
-    margin-left: -3rem;
-    
   }
 
   .jumbotron{
