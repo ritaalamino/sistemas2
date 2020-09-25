@@ -1,8 +1,12 @@
 
 :root {
     --main-bg-color: #D3C6B7;
-    --main-tx-color: #025949
+    --main-tx-color: #A0A698
   }
+
+header{
+  background-color: #eeeeee ;
+}
 
 body{
     background-color: var(--main-bg-color);
@@ -49,7 +53,7 @@ body{
 }
 
 .jumbotron-fluid{
-  background-image: url('images/book1.jpg');
+  background-image: url('images/book3.jpg');
   height:350px;
   background-repeat: no-repeat;
   background-position: center;
@@ -59,6 +63,29 @@ body{
 .jumbotron-fluid .container {
   position:relative;
   top:50px;
+}
+
+.titulo {
+  position: relative;
+
+}
+
+.container{
+  width: 100%;
+  padding-right: 10rem;
+  padding-left: 5rem;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+p{
+  display: block;
+  text-align: justify;
+  margin-block-start: 1em;
+  margin-block-end: 10rem;
+  margin-inline-start: 0px;
+  margin-inline-end: 50rem;
 }
 
 @media screen and (max-width: 500px) {
