@@ -18,7 +18,10 @@ body{
     background-size: cover;
     color: var(--main-tx-color);
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 10rem;
+    margin-right: 10rem;
 }
 
 .tema-1 { color: #73022C; }
