@@ -62,7 +62,6 @@ body{
 
 .jumbotron{
   margin-bottom: 0;
-  margin-top: -1.3rem;
 }
 
 .jumbotron-fluid{
@@ -92,7 +91,7 @@ body{
 }
 
 
-p{
+.abertura{
   display: block;
   text-align: justify;
   margin-block-start: 1em;
@@ -102,14 +101,16 @@ p{
 }
 
 .col-md-4{
+  flex: 0 0 30.333333%;
+  max-width: 30.33333%;
   position: relative;
   width: 100%;
   padding-right: 15px;
   padding-left: 15px;
-  max-width: 100%;
 }
 
 .row{
+  display: -ms-flexbox;
   display: flex;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
@@ -121,35 +122,6 @@ div{
   display: block;
 }
 
-@media screen and (max-width: 500px) {
-  .menu a{
-    float: none;
-    display: block;
-    width: 100%;
-    text-align: left;
-  }
-  
-  p{
-    display: block;
-    text-align: justify;
-    margin-block-start: 1rem;
-    margin-block-end: auto;
-    margin-inline-start: 0px;
-    margin-inline-end: 100px;
-    color: var(--main-tx-color);
-  }
 
-  .jumbotron{
-    margin-bottom: 0;
-    margin-top: -4rem;
-  }
 
-  .jumbotron-fluid{
-    background-image: url('images/book3.jpg');
-    height:350px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100% auto;
-  }
 
-}
