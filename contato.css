@@ -1,7 +1,7 @@
 .fit-image{
-    width: 350px;
+    width: 100%;
     object-fit: cover;
-    height: 600px; /* only if you want fixed height */
+    height: 500px; /* only if you want fixed height */
     }
 
 .row{
@@ -10,4 +10,6 @@
 
 .col{
     margin: 4px;
+    width: 45%;
 }
+

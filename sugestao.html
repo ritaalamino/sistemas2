@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/47cb81a392.js" crossorigin="anonymous"></script>
+    <link href="../css/bootstrap.css" rel="stylesheet" type="text/css" /> 
+    <link rel="stylesheet" type="text/css" href ="index.css">
+    <link rel="stylesheet" type="text/css" href ="sugestao.css">
+
+    <title>A arte dos Livros</title>
+
+    <script>
+        function validaForm() {
+          var x = document.forms["sugestoes"]["titulo"].value;
+          var y = document.forms["sugestoes"]["autor"].value;
+          var z = document.forms["sugestoes"]["descricao"].value;
+          if (x == "") {
+            alert("Precisa preencher o título");
+            return false;
+          }
+          if (y == "") {
+            alert("Precisa preencher o autor");
+            return false;
+          }
+          if (z == "") {
+            alert("Precisa preencher a descrição");
+            return false;
+          }
+          
+
+        }
+    </script>
+
+</head>
+
+<body>
+    
+  <div class="menu navbar-default navbar-fixed-top">
+      <a href="index.html" class="active" ><i class="fa fa-fw fa-home"></i> Início</a>
+      <a href="sugestao.html"><i class="fa fa-fw fa-question-circle"></i> Sugestões</a>
+      <a href="livros.html"><i class="fa fa-fw fa-book"></i> Livros</a>
+      <a href="sobre.html"><i class="fa fa-fw fa-cat"></i> Sobre</a>
+      <a href="contato.html"><i class="fa fa-fw fa-address-book"></i> Contato</a>
+  </div>
+</div> 
+<section>
+    <div class="book">
+        <img src="images/book9.jpg" alt="">
+    </div>
+    <div class="container">
+        <form name="sugestoes" action="" onsubmit="return validaForm()" method="post">
+          <div class="row">
+            <div class="col-25">
+              <label for="titulo">Titulo</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="titulo" name="titulo" placeholder="Meu Livro Querido">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="autor">Autor</label>
+            </div>
+            <div class="col-75">
+              <input type="text" id="autor" name="autor" placeholder="Licurgio Orival">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="category">Categoria</label>
+            </div>
+            <div class="col-75">
+              <select id="category" name="category">
+                <option value="auto-ajuda">Auto Ajuda</option>
+                <option value="aventura">Aventura</option>
+                <option value="biografia">Biografia</option>
+              </select>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-25">
+              <label for="descricao">Descrição</label>
+            </div>
+            <div class="col-75">
+              <textarea id="descricao" name="descricao" placeholder="Este livro fala sobre..." style="height:200px"></textarea>
+            </div>
+          </div>
+          <div class="row">
+            <input type="submit" value="enviar">
+          </div>
+        </form>
+      </div> 
+    </div>
+</section>
+
+ <footer class="container">
+   <p>© Rita & Wandinho 2020</p>
+ </footer>
+
+</body>
+</html>
