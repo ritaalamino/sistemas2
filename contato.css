@@ -1,7 +1,7 @@
 .fit-image{
     width: 100%;
     object-fit: cover;
-    height: 500px; /* only if you want fixed height */
+    height: 480px; /* only if you want fixed height */
     }
 
 .row{
@@ -13,3 +13,10 @@
     width: 45%;
 }
 
+h1{
+    color: #73022C;
+}
+
+p{
+    color: #595948;
+}

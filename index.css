@@ -13,6 +13,10 @@ html{
   box-sizing: border-box;
 }
 
+p{
+  text-align: justify;
+}
+
 body{
     background-color: var(--main-bg-color);
     background-size: cover;
@@ -30,7 +34,23 @@ body{
 .tema-4 { color: #A0A698; }
 .tema-5 { color: #D3C6B7; }
 
+h2{
+  color: #73022C;  
+}
 
+.textoprincipal{
+  color: #595948;
+}
+
+.btn{
+  background-color: #73022C;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
 
 .menu {
   width: 100%;
@@ -124,7 +144,3 @@ body{
 div{
   display: block;
 }
-
-
-
-
