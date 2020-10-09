@@ -21,6 +21,17 @@ section{
     margin: 2px;
 }
 
-p{
+body{
     text-align: justify;
+    color: #595948;
+}
+
+h1{
+    color: #73022C;
+}
+
+.resume{
+    margin-left: 22.5%;
+    margin-right: 22.5%;
+    padding: 2px;
 }
