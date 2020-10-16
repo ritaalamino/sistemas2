@@ -16,23 +16,25 @@
         width: 100%;
         height: 50vh;
         object-fit: cover;
+        
       }
 
       #img_redonda{
-        float: left;
         width: 200px;
         height: 200px;
         border-radius: 50%;
         border: 5px solid gray;
       }
 
-      h1,h2,h4 {
+      h1,h2,h4,p {
         text-align: center;
       }
 
       table {
-        width: 100%;
-        display: table-cell;
+        width: 60%;
+        table-layout: fixed;
+        text-align: center;
+        /*border: 2px solid gray;*/
         vertical-align: middle;
       }
     </style>
@@ -61,7 +63,7 @@
 
       <div>
         <h2>Sobre os autores</h2>
-        <table>
+        <table align=center>
           <tr>
             <td><img id="img_redonda" src="images/wand.jpg" alt="Foto do Wanderson Paes"></td>
             <td><img id="img_redonda" src="images/wand.jpg" alt="Foto do Wanderson Paes"></td>
