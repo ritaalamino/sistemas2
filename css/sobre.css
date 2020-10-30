@@ -5,6 +5,11 @@ img {
     
   }
 
+  p{
+    color: #595948;
+  }
+
+
   #img_redonda{
     width: 200px;
     height: 200px;
@@ -43,5 +48,10 @@ img {
 
   a:link{ 
     text-decoration:none;
+    color: #73022C;  
+  }
+
+  h1{ 
+
     color: #73022C;  
   }
